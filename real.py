@@ -15,7 +15,7 @@ MAINFILE = 'first.csv'
 
 
 
-#first scrape
+#first scrape -- creating the first ever file
 def firstScrape():
     for name in subreddit_names: #only want to do this once
         filename = name + '.csv'
@@ -28,7 +28,7 @@ def firstScrape():
         df.to_csv(filename,mode='w',header=True, index=False)     #creating individual csv
         df.to_csv(MAINFILE,mode='w',header=True,index=False)     #creating an amalgamated csv file
 
-
+#function to scrape once file has already been created
 def loopScrape():
     for x in range(2):#loop scrape...change to scraping on weekly basis
         for name in subreddit_names:
@@ -47,7 +47,7 @@ def loopScrape():
             df.to_csv(MAINFILE,mode='a', header=False, index=False) #creating an amalgamated csv file
 
 
-
+#NOT USED RIGHT NOW
 #ITS NOT WORKING AND ADDING DOUBLE FOR EVERY NEW LOOP
 def addIndex(): #to give it an index that is not repeated with every loop
 
@@ -72,7 +72,7 @@ def addIndex(): #to give it an index that is not repeated with every loop
 
 
 
-# all the scraping
+# THE ACTUAL SCRAPING
 for name in subreddit_names:
     filename = name + '.csv'
     if (exists(filename)): #if the file exists already, then only move on to appending new posts
@@ -82,33 +82,83 @@ for name in subreddit_names:
 loopScrape()
 
 
-#dropping duplicates
+# CLEANING DATA
 for name in subreddit_names:
+    #cleaning for the individual files
     filename = name + '.csv'
     dfcheck = pd.read_csv(filename)
+
+    #dropping duplicates
     dfcheck.drop_duplicates(subset=['title'],keep='first',inplace=True)
+
+    #replacing special characters
+    dfcheck=dfcheck.replace('\*','',regex=True)
+    dfcheck=dfcheck.replace('&#x200B;','',regex=True)
     dfcheck.to_csv(filename,mode='w',index=False)
+
+
+#cleaning for the first.csv file
 dfcheck2 = pd.read_csv(MAINFILE)
+
+#dropping duplicates
 dfcheck2.drop_duplicates(subset=['title'],keep='first',inplace=True)
+
+#replacing special characters
+dfcheck2=dfcheck2.replace('\*','',regex=True)
+dfcheck2=dfcheck2.replace('&#x200B;','',regex=True)
+
 dfcheck2.to_csv(MAINFILE,mode='w',index=False)
+
+
+
+
+
+#just delete the phrase from the row
+unnecessary_phrases = ['hi','hello','thanks','thx',
+'ty','tx','dear community','i am looking for',':)']
+
+#this is a sign to delete the entire post/row
+personal_phrases = ['my idea','my app','my invention','i\'ve got an idea',
+'i\'ve got an app','i\'ve got an invention','i\'ve been thinking',
+'i\'ve got this','my product','need your']
+
+
+
+
+
+# to check:
+#first lower case everything
+#for i am or i'm check both
+#for an and a, check brother
+# del if it exists
 
 
 #adding an index
 #addIndex() #right now its kinda Unnecessary
 
 
+#ASK MORGAN FOR THIS
 #Clean data from special characters
-# emojis, &#x200B;, "hi i've got an", "hello", "thanks", thx, ty, "dear community"
-# just wanted to share
+# emojis, &#x200B;
+
+#clean out personal stuff
+# "hi i've got an", "hello", "thanks", thx, ty, "dear community"
+#i am looking for
+
+#if post has this, delete the whole row...
+#unless you just want to take out hte "ive got an app" string and keep the rest
+# my invention, my idea, my app, "ive got an idea", "ive got an app"
 
 
-#should i eventually just drop the individual files
+#should i eventually just drop the individual files???
 
 
 #Clean inappropriate, swear words (github cleaner code)
 # https://github.com/vzhou842/profanity-check/tree/master/profanity_check
 #replaced "fucked" "messed"
 #sentiment anaylsis?
+#deleting stuff around relationships
+
 
 #summarize the data
 #fix spelling errors
@@ -116,7 +166,12 @@ dfcheck2.to_csv(MAINFILE,mode='w',index=False)
 # deleting the irrelevent, innapropriate data: use crowd working (hire people to sort the data)
 # or you can try to implement a sentiment model...which is sketchy
 
-#deleting stuff around relationship
+
+#manually sorting into problem category?? how would i do that?
+#sorting into ideas
+
+#sorting into categories using text classification like ckimate change, health for
+#displaying on the website
 
 
 
@@ -127,4 +182,8 @@ or is my code just not efficient?
 
 scraping on a schedule? run on a server and import datetime to scrape every week
 can i have my code run and scrape every week
+
+THOUGHTS:
+for the actual front end website, create a feature for the mod
+to delete posts easily by clicking an x on the interface
 '''
