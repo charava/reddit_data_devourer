@@ -1,0 +1,541 @@
+title,score,body,id
+Easy cleanable inear hedphones,3,Do you know the problem when your inear headphones holes a stuck with some ear wax or dirt and they start to sound worse but it's impossible to to clean them properly,ejfuor
+A way to make android gaming controls more usable and similar to console.,0,"Is there a way to use the movement of your device to trigger onscreen buttons? Let's say you are playing an emulator and the original console controls required the use of 4 different inputs at once. Two thumbs and then a finger on each trigger. Many games use controls like this, and it's why playing shooters on the phone feels so clunky. When using on screen controls you can only use your two thumbs thus making it uncomfortable to properly play. For example take Minecraft. You look and move around with the joysticks, then attack or place blocks with the triggers, enabling you to simulataniously move whilst interacting. This is a critical factor in immersiveness and general playability of the gaming experience. When your control inputs are limited as they are on touchscreen devices, it forces games to adapt and change, often making console ports hard to enjoy, however creating an interesting variety of unique controls for other games that perhaps were originally designed around this flaw.
+
+Specifically targeting emulators and console ports; games not designed around this flaw in controls, in my opinion this side of things could really do with a way of getting around this problem as it would vastly improve the enjoyability of playing (proper) games on the phone. My solution involves using the accelerometer & gyroscope to detect when the phone was being tapped on the top corners or back, and then mapping these input signals to control a touch button on the display, thus creating artificial trigger buttons for your emulator's.
+
+You would simply hold the phone in a landscape position in a similar way to how you would hold a regular gaming controller, with your fingers resting on the top left and right corners of the screen. Just give them a good tap and that's your button. Surely the phones sensors are sensitive enough for that to be enough to trigger an onscreen reaction. Granted, this would not be a perfect solution as it would only really allow you to tap the triggers and not hold them down, however this could surely be somewhat mitigated by using a combination of all of your phones sensors to detect a purposeful input. The microphone would be able to detect a sound transient upon contact, as well as your gyroscope detecting subtle movements in orientation. Perhaps an extremely subtle flick of the phone toward whichever trigger you wish to press, in conjunction with the tap detected by the microphone, would be the best way to grant this method consistentcy as well as true functionality, via the added support of several sensors working together to detect intentional input.
+
+Would this work, and is it already simple and easy to do with apps currently available?",rbs5ja
+The group chat paradox 📉,1,"When I joins the group chat after the long conversation, They have discussed more than one topic in the same chat channel so I could not able to follow what they have chated. I need to read the whole conversation to understand what they have discussed.
+
+• Do you encounted this problem in your group chats?
+• Do you have any solution to this problem?",r9zy0q
+What are your daily life problem that can be solve by a new invention/product?,1,You have to tell your problem you face in your daily life or in  any invention/product than we will discuss and  invent something to solve your problem.,rbzmfo
+Trustworthy nonprofits,6,"I have a few ideas that I would like to give away but I'm not sure where to go with them. I'm not looking to make any money off these ideas I just want to contribute to fixing problems in the world.
+
+The primary idea that I would like to focus on involves clean water and power near coastlines and I think it could really help people but I don't want anyone to steal it and charge outrageous amounts for it. If anyone has some recommendations I would really appreciate it!",r8yfmt
+Pencil fidget,8,"I am currently a student in college and I problem I often encounter is the intense feeling of boredom whenever I’m in long lectures. This leads to paying less attention, missing material or even falling asleep in class. I had an idea a couple weeks ago about a 3D printed fidget toy attachment onto a standard mechanical pencil. This would be removable and could fit different attachments such as a spinner, switch, joystick, etc. My thought is that it would make class less painful but I’m curious to see what you guys think.",r57alj
+I wanna 3D chip/PLA printer.,1,"It should be possible to have a 'four color' 3D printer (P,N,Conductor,non-conductor) chip maker that uses chemical vapor deposition to fabricate integrated chips onto pre-made chip blanks.  Maybe more 'colors' for other specialized components, too... for a deluxe model, to integrate capacitors and inductors and such.  Analog circuits come in handy, after all.
+
+I remember a few articles from long ago about someone doing something like making circuits with an inkjet printer, but nothing for well over 20 years since.  I guess those college students graduated and entered the workforce to pay for their college debts.
+
+Anyways, you'd buy bulk chip blanks with pins preset and pre-soldered onto connection points on a piece of bank, clean silicon (or other substrate), and build up chips like a 3D printer makes other models.  It could use pre-doped/mixed compounds as 'wire' for the P/N junctions, metal wire for the conductor, and something else for the non-conductor.  These would be in separate heads/'pens' to be used for the various stages.  The machine would pause, pick up another 'pen' (wire preloaded/threaded) and continue printing the next layer.  (Which would be a nice feature even for pure plastic 3D printers.)
+
+Since it would deposit vapor from heating/arcing/whatever the materials and shooting them at the chip surface, it wouldn't use any chemicals, but it would probably need some kind of vapor catcher for the gases being drawn out of it by the vaccum.  Otherwise, it would be 'clean' compared to the (sometimes) horrific stuff you need to etch with, to make chips.  All additive.  (Or maybe even just specialized plastics?)
+
+So, you'd design the circuit, put it into the software, connecting up the pin inputs/outputs, the software would simulate, recommend reconfigurations and figure out the optimal order of printing, you say OK, and it starts laying down material, layer by layer, just like 3D printers do.
+
+It would be extremely low resolution compared to the techniques measured in nanometers, but for 99% of things outside of cameras and computers and solid state storage, it really doesn't need to be high resolution, nor does it really matter being super fast in every application.  If you're a hobbyist or developer, it should be accessible and a lot more compact and affordable and convenient than buying bulk transistors and other parts, and playing with breadboard when prototyping.  Plus of course, downloading shit and making it for grins.
+
+You could even have the chip blank anchored into the machine in its own chip socket(s), so it could be tested and probed from outside without putting the cap on or opening the machine up.  Though if you built it up pretty high, you'd probably need its own air tent, and a way to reach in and put a custom cap on manually.
+
+When you think about space colonies and replacement parts, do you really want some crucial chip to blow out twice, and then wait half a year (or more) for a replacement you ordered from Earth?
+
+Sure would be nice if you could print up a replacement in a couple of hours without stocking and transporting harmful chemicals.
+
+It could also (conceivably) print chips in 3D, somewhat overcoming the low resolution problems.  If you go for something like 100 micrometer scale, you could still pack a million transistors into one cubic centimeter.  It'd have to be real low power, though.  (Minus losses for purely structural parts and conductors and whatnot.)
+
+Even at 1mm scale, 1000 transistors/elements in a 1cm block would be attainable.  Or print some bigger transistors as amplifiers/drivers, and such.  So making an 8 bit CPU or SOC would need a couple of centimeters of 1mm cubed voxels.  Maybe voids for airflow/cooling, structural elements, a shell and various other things.  Anyway, when talking mid tower desktop PC scale, you could get a non-trivial amount of computer working by PACKING that volume of space, even at such low resolution.  [There are already open source RISC projects.](https://openrisc.io/)  So why not download a new computer?
+
+You're not gonna make much in a day, just like any current 3D print, but you'll get *something*.
+
+Of course, weird, misshapen 3D printed electronics would be fun, too.",r3bwps
+Work problems...,9,"So I work at an elementary school through Americorps right? When the schools closed down, the principal (one of my bosses) asked me to check in every day with the vice-principal, Minh. I asked if we could make it a weekly check-in but the vice principal said since principal said we gotta do every day, it's what I have to do.
+
+Well, I did forget some days of the week to check-in. And so my Americorps Supervisor calls me to yell (rant) at me for it.
+
+She's been very inconsistent with the requirements with this whole check-in even though I'm checking in with just the vice principal and not her. Our check-ins are separate. Mind you her job is to make sure I'm doing my job at the school which is why shes concerned with the check-in between me and the vice principal.
+
+In April, since I forgot a couple more days, she called again. And ranted over and over how I'm not professional and even threatening to fire me because I'm being so unprofessional for not checking in with the vice principal. She told me she doesn't care what time I check in just as long as I do it? Since my work at home hrs have been so...all over the place.
+
+Technically it was our Spring Break when I forgot that time so I didn't it was such a big deal.
+
+Well, today she called (EVEN THOUGH I HAVE CHECKED IN every day) and RANTED OVER AND OVER how so I'm so unprofessional and how my check-in times are so late. I asked her what time does she want me to check-in? And I didn't get a specific time. So I send my daily check in to vice-principal and say ill be checking in at 1 pm every day. Then she texts me and says ""NO the requirement is 12:00pm""
+
+She's being very inconsistent with her requirements and expectations and I'm getting sick of her threatening to fire me over this stupid check-in.
+
+Hearing someone call you unreliable, unaccountable, unprofessional, etc. over and over. I cried during our call but I muted it bc I was trying so hard to stay professional.
+
+She said she will not be my reference for whatever job I may be getting next...mind you, I never asked her to.
+
+I don't know what to do. I want to report this to her boss and talk to my vice principal but I don't how to explain it to them.
+
+Thank you for reading this whole thing...I really could use some professional advice on this if there is anything I can do.",g2x57f
+I'm stuck in another country with my mom and step-father who apparently can't stop fighting each other,13,"Hi
+
+Well, I'm originally from South America, I live there with my dad. This February I had to come to Europe, where I lived in for seven years before I went back to my country, so I could help my mom take care of my little brothers until she recovered from a serious surgery. My step-father and her are separated, he usually stays in another city because of work and then comes to the city my mom lives in for two weeks so he can see the kids. That's all good, it works for them, but quarantine messed things up, since my step-dad can't go back to the city. My mom and him fight absolutely all the time, sometimes it's over serious problems and sometimes over really small things. It has been like this since I was 13 years old (I'm currently 21), that's why they separated.
+
+The thing is, all of this is taking a toll on my mental health and I haven't been able to go back to my country. The embassy and airline won't answer my emails. I'm getting sick of it, plus I'm starting online classes.
+
+I don't know how I will manage to stay sane. I've tried talking to them calmly, yelling, putting on my headphones on full volume so I can't hear them, going to another room but it doesn't work since the apartment is tiny and I don't have a bedroom for myself.
+
+What can I possibly do? I'm genuinely desperate.",g2oc25
+Online school (not serious),5,"This is very mild, and will probably make me sound bratty, but here we go. I had a science project I had to hand in, and usually my teacher would pester us to hand in every part of the assignment (understandably). But because of online school, I forgot to. I handed in the main assignment, but forgot all my research notes. What’s stranger is that I handed in the works cited on a separate page, but had no notes attached. When I got the mark back, I noticed the big fat 0 next to the research notes. I put a lot of effort into them, so I assume I would’ve gotten perfect. My mark would’ve went from an 81% to a 95%, and it infuriates me. I’ve always been soft and broke down at the smallest thing, so this made me very sad, then angry, then quiet. I know this isn’t even really a problem, but it could’ve been avoided if Corona wasn’t happening. Stay safe, do your work, hand it in, wash your hands. I want this whole mess to be over soon.",g2nycw
+Computer Mouse problems,2,"**My mouse doesn't allow me to move in axis X and Y at the same time** (it happened 3 days ago)  and idk what to do , please help me <3
+
+
+Thx for ur time :))",g22evq
+My close friends for three years in high school are cutting me off,7,I have three best friends throughout my high school life. After many bad experience with friendship groups and drama. I have finally found my close friends in high school which is my ex three close friends now. How it all started in my opinion and what I’m about to express is what I feel like happened and it could be different on what they have seen or what their side of the story could be. I first met two of my best friends in the end of year 7 when I was bullied with my other toxic friendship groups and when I first met them they were very nice and understanding. They would tell me they would always be here whenever I have problems and they always listened to me complain or rant about my family problems or issues in my life time. I would sometimes make funny jokes like for example how people act and stupid dad jokes. They all laughed and they would always hype me up for the jokes I made and it actually made me happier that someone could finally understand me for who I am. So then my jokes got more funnier and they would laugh more louder. After one year pasted my two close friends made friends with another girl and she joined our group and to be honest at first I disliked her and was jealous of her because she was used to be from the popular group and I hated the way she acted. While I started to feel excluded and left out of the group. So I told my two close friends about how I felt and they completely Ignored my opinion. Pretending nothing has happened. While days kept going on I stoped mentioning my problems about the new girl in our group and started to communicate with her and hang out with her more often thinking then I would be able to fit in more. But as time went she’s actually gorgeous and an out going person and I actually got closer with her more than my other two best friends. The four of us are all having fun and talk together through out our last year of high school. Soon time went out and things started to go down. My problems got worse and I would want people to listen to my thoughts I try not to always complain to them about it and I would often hear them complaining about things in their life’s and I found it equal because that’s what friends do. But then soon I found out that my friends are once again distancing themselves with me. I tired to find reason and I learn from my past mistakes in other friendship groups until I finally said it out to them that I felt left out again. Then they finally all stood up and talked about the problems but it never came to a conclusion because everyone was just crying about the situation and ranting out all my mistakes and they never talked about their own. They told me they are sick of me ranting. They are sick of my jokes because it makes them feel uncomfortable and weird about themselves. But I found it really weird because they never told me instead blaming the problems all on me and telling me how I am the person causing all the dramas in this friendship group. But that’s not my intention to cause drama. I just wanted to make them happy and laugh so all my jokes are just to make them happy when they are upset and my problems I could not talk about it again only if you guys could of told me earlier. Instead of telling me at the end the year when everyone is gonna graduate soon. They said that my problems are affecting their own mental health and it’s killing them and they are sad because they have enough problems on their mind too. But I hate the fact that they didn’t tell me and I asked them that too and what they told me was they hide it away from me thinking they will get judged about their opinions on things if they stated their opinions on things I did or said and it made me really really upset. Because I thought we were all best friends and if we talk about things and if we don’t like it you have to say it out because then none of us will change for the better. It made me feel like a shit head that I am not counted as a friend because they hide their most important thoughts in things away from me. I could still remember that day where all four of us were crying our brains out. But all their problems were targeted towards me that I am the problem and drama causer. That day was the last day of school since the school got shut down the next day because of the coronavirus going on. So none of us get to solve or talk it out. So I send them each are very very important text message and explained my wrong and hope they would accept my apology. But instead they turned really cold to me and started to lash out everything on how I made their life’s horrible and things are never gonna be the same anymore. It’s a build up problem because since year 7 they would laugh in my jokes and told me that they would always listen and be by my side when problems rises and I know people do change over time but these words hurt me the most that my friends are leaving me because of me trying my hardest to fit in. I apologised for what I did in the past to create this problem. But they never apologised for the words they said or called me. That’s what made me sad and proud at the same time. That I admitted what I did wrong in this friendship even though I think I really didn’t because it was a misunderstanding of communication since they NEVER told me what they are thinking. But I can also understand them at the same time because it’s hard to tell one of your friends about this. I admit what I did and I’m proud of that. They didn’t do it and it’s ok because everyone has their own choice. It’s their Choice to do what they think is correct and in the end they decided to cut me of. They said we can acquaintances but every time when I text them like “hi” or “how are you” they Igrone me or leave me on read. I realised that just some things that caused them to turn completely cold to me. I guess In the future I will learn from my mistakes and find a true friend who will understand me better than high school.,g1r9qq
+Brother,5,This is my first time telling anyone about this so my older brother scares me when we were younger he would do anything in his power to keep my mouth shut about him dipping or smoking he’d pin me down on the floor and hit me and as time went on it got worse one day he just came in my room and just started hitting me  as his friends just watch in the doorway and more recently he’s been getting into drugs and cussing out my mom and threatening to kill me to get money out of my mom luckily i did get out of these situations mostly unharmed ever since then I’ve been having nightmares about him killing me or my little brother and it feels like it might happen this whole situation with my brother has caused a lot of problems for me and I don’t what to do,g1eixl
+Reddit is my problem right now... I can only view like half of the messages I get,3,"WTF? Does anyone else get this? I can see the notification on my phone and like the first few words of a comment but I can't find a new message on the ap or the website...
+
+Also, On about half the posts I try to comment on, when I'm done and hit post I get an ""oops, something went wrong"" error.
+
+WTF?",g1b8e4
+A problem I had for two years,3,"Before I went into middleschool, I was a happy little kid that would always talk to others and make goofy and funny things to make others laugh. Some of the kids that I mess with don't really have a problem with me and sometimes would ask me if I would like to play games in the playground like the floor is lava, tag, and hide n seek. Other kids however (that were mostly girls), saw me as a annoying kid who does dumb things and doesn't know any better. So the girls rarely ever talked to me. Sometimes I would be arguing with some girls since they would act defensive and would sometimes tease for the things I do. Luckily I had a very nice teacher and would diffuse the situation quickly. The girls will sometimes tease me for the things, but it didn't really bother me since me and my friend would always laugh it off. But then, once my elementary days were over and I had to go a middle school for the first time, things got pretty bad.
+
+Once my first day of middle school began, I was sort of shy and didn't really talked that much since my friend from elementary school was going to a different middle school so I had no friends to talk to. My first impression to my classmates wasn't that good, I acted pretty retarded to them as of what I've done to make kids in my elementary school laugh. Once lunch began,
+I sat in a small table were couple of my classmates were sitting in. I attempt to make ""funny"" things that I deeply regret doing like eating things of the floor, eating
+scraps of food that my classmates didn't want, and make weird jokes that weren't really funny at all. Worst part about my classmates was that some of them were girls that were from my elementary school. The girls didn't really like me at all and started spreading rumors about me that would later destroy my reputation with my classmates. Another bad thing about my classmates is a small group of ghetto kids that weren't really nice to others. Once they heard about the rumors, they pretty much started tormenting me everyday calling me names, stealing some of my belongings, and even sometimes threatening me that they were gonna beat me up. I felt powerless because of them. Around the middle of the school year, everyone was pretty much against me, they all pretended I had some disease which they called Ebola and started physically distancing themselves from me, pretty much causing me to be lonely for the rest of the school year. It gotten so bad to a point where everytime
+I sit near to ant of my class, they would scooch away from me or tell to please sit somewhere else. I would also pretend I was sleeping on the table while in reality I was quietly sobbing from all this torment I had to deal
+with every day. Onetime one of the ghetto kids was mad at me for something that I can't remember and started calling names and other bs at me. I then snapped and threw a small milk carton at him and it hit him in his. After this, he told me that me and him are going to fight in bathroom. I was pretty mad at him so I pretty much shrugged it off. Then when my class period started he came to my table and told to follow him into the bathroom. I knew what he was doing so told him no. Then he brought his friend and tried to encourage me to follow him to the bathroom. I got angry at him and quietly threw a cuss word at him. He heard me though, and got pissed off and decided to shove my workbook off my desk. Luckily my teacher finally realizes whats going and stopped the ghetto kid from harassing me. But at that point, I hit my breaking point and started sobbing onto the desk. That day was the day were my personality started to drastically change. After my school uear was finally over and I moved on to 7th grade. I was no longer that happy kid that would always attempt to make funny jokes to make other people laugh. I was now just some kid that barely talked to other.
+
+As of writing this now, Im now a lot more energetic than before and now have friends that I would sometimes talk. But I still don't talk that much to others since I fear that they would gonna tell me to shut up or say that they don't care what im talking. Sometimes though, I would fight off my anxiety by telling myself that if they don't care about the things I say, then just move on and say something else. I would also have these episodes where my confidence to do anything just goes down the drain and their will voices of my classmates in my head telling that whatever I was doing is dumb or tell me that my opinions are dumb.
+
+Sorry you had to hear my long ass sob story about me. Hopefully some of yall can give some advice to deal with my anxiety and these episodes I have.",fxkty1
+An Idea for a single shot slasher film,0,"An elderly lady pulling her suitcase by its handle approaches the sergeant at the front desk of a police station. She waits until he notices her and asks how he can help her.
+She replies ""I have been having a problem with the neighbourhood kids."" She drops her beheaded dead cat on the counter. ""They killed my cat and forced me out of my house.""
+
+The film then plays in reverse following her backwards down the street past the crowds of people going about their lives back through alley ways where she is avoided even by violent criminals and eventually we get to her house now on fire. She enters the house which exploded in flames in reverse. We follow her to a kitchen where she puts food wrapped in newspaper into the suitcase from the countertop. We follow her out of the kitchen where she closet where she retrieved her suitcase. We follow her back to the kitchen where she chops up fresh meat into cuts and wraps them up in newspaper.
+She carries meat from the kitchen backward down into a cellar where she dismembers bodies of teenagers fighting them to the death with a meat cleaver who she finds have broken in through a cellar window and are searching for things to take.",rauju0
+Acu-heal-me: Acupressure for all,0,"We all suffer from one illness or other at some point of time. Some of these illnesses i.e. headache, neck pain, back pain etc, whether acute or chronic are also very common. Knowing right acupressure points and pressing them on body at the right time can help relieve pain from these problems or more. If someone if flying and feeling anxious then pressing right points on body can calm him, if a person who is traveling is feeling pukish, then it can be avoided by pressing right points on body. There are millions of uses cases of Acupressure as a therapy and the good thing is people can self-treat themselves if they know these points at the right point. An app with this objective can acts as a first-aid treatment for people suffering from various ailments. Let me know your views/ feedback.
+
+Poll:
+
+Which of the following treatment have you tried for headaches
+
+[View Poll](https://www.reddit.com/poll/re56kq)",re56kq
+Taskified - Gamified Tasks,8,"I was thinking about developing an app with gamification elements for a long time.
+couple pf days ago i encountered a problem with my son who didn't want to do some chores and thought about this idea:
+
+a parent - child app where parents can post tasks, each completed task rewards the child who finished it with points, those points can be converted to rewards that parent posted also.
+
+some user stories i thought about:
+parent side:
+* can assign task to all of his children or an individual.
+* can add gifts / rewards to be redeemed with points
+* can track task / child proccess
+* can assign a deadline for a task
+
+
+child side:
+* can take a task disabling it to other children
+* can redeem points to gifts / rewards
+* can earn predetermined amount of pts for each day (or maybe day streaks or something)
+* earns badges / unlock achievements / leveling up
+
+
+** this educational method is a common method from the Cognitive Behavioral Therapy (CBT)",rdhl9a
+Tackling information overload in tech news,0,"I have been struggling to keep up with the tech news. I have to scroll social media, use Feedly all the time. Even they contain too much information. Is there a scope for a product that cuts the noise and lets you read only the most important news on the topic one is interested? Say, Nocode, AWS, Web 3.0.
+
+I infact have a simple working prototype that is tailored for the topics I am interested in. But not sure if others also have the problem. Would appreciate your feedback.",rg6pko
+Time saving bank card. Skip the faux security. (Idea),1,"Fast cash, Blink bucks, Dosh pass, Fast Chit, Skip Chit
+
+I could make 100 of these names for a card that pretty much skips all of the questions at checkout and just pays mostly for smaller daily purchases.
+
+Obviously first off Chip, NFC, and strip don't put my personal info on the card the limit is low and the security is high.
+
+Skip the signing at restaurants.(Have a preset percentage for tipping you set on an app which can be changed before it clears. Blacklist places it's stupid to tip at)
+
+Skip All the pin pad questions
+
+* Skip the Pin/signing at check out. (Security features below)
+* Skip the asking if you want cash back. (Just turn it off for the card)
+* Skip the are you sure.
+* Skip the do you agree to this fee.(have that one at the local commissary twice in a row now)
+* Skip the do you want a stupid warranty for your 3$ bathroom scale.(Looking at you hellmart)
+* Skip the donate to a charity (pisses me off anyway I'm not donating to your tax write off why is this a thing that I don't see called out more)
+* Skip the receipt completely it goes to your bank. (From there it is with each purchase. Some places offer to send it to your email but about 50% of the time it doesnt pull the email from your card and now all the sudden you have to type it in on that garbage pin pad screen)
+
+Integrate all your rewards cards (Google pay already does this and is fairly fast at walgreens)
+
+Security features to ensure the easy card is not abused since by nature it should be blazing fast to use.All of these should be adjustable and optional features
+
+* Every so often you must tap the card on your phone and the NFT re-enables it or even refills if you have a limit you are nearing.
+* Location tracking
+
+1. The card only work if its been near your phone in the last day or so.
+2. A push notification if your card is moving too far away from your phone also adjustable distance.
+3. Location based security levels highest being that it must be near your phone to work or the limit is reduced significantly. (So you can go in and grab a drink while you left your phone in the car.)
+
+Initially when I thought of this I thought it would be an everyday card with a low daily limit that was fast but with the security options I've laid out this is likely more secure than mose cards. That being said some features to expand past the original scope
+
+Online purchases
+
+* Virtual cards for everything online (All of this can be done with privacy.com)
+
+1. Wanna cancel that subscription but you can't do it online. Screw em the virtual card doesn't exist anymore also if they somehow try to contact you they say you died of  Pentapox or something\*^(Likely not legal) (Should be illegal to allow someone to sign up for a service online but not cancel with the same ease)
+2. Same with utilities in small towns that go past greedy human eyes (my electric company compromised my card twice now. No idea if this is just a small town problem)
+3. Kinda sketched out by the security of a site just use a one time virtual card
+
+Aesthetic  
+Totally pointless but I want it to be a nondescript flat color and have the Skip icon on it.Personalize it all you want just can't add pictures copyright nightmare.
+
+&#x200B;
+
+Thanks for reading this, ended up going on far further than I thought it would. If someone comes up with a dope idea I'll edit it in.
+
+What else would you want?",ri8iwe
+How about we have an AC for cars that doesn't need the engine to be running.,7,"It's getting to be a problem with people here in Texas to just sit in there car for 30 minutes. I'm assuming this is so because people can have a lay over time that requires waiting a few minutes in between errands throughout the day, and they do not want to wait outside because it's 95 degrees in October.",dcgzct
+I just though about a Sound camera,1,"So it's exactly that, a camera but instead of electromagnetic waves, mechanical waves...
+
+I can't think of any uses for that, but it would be really cool..
+
+somekind of chamber made of sound isolating material. in the back, inside of the chamber many samall microphones that would act as the camera's sensors. and on the front of the chamber a small hole where any outside sound can enter freely: like a pupi.
+
+conceptually it is the same as a ""dark  chamber"" or an actual camera, so Ideally it would produce images in a similar way
+
+a problem that might emerge is the size and sensibility of the microphones. but still, even if we are not capable of producing decernable images, just a proof of concept os really cool! like the relative position of the sound source or something...
+
+let me know what you guys think, does something like this already exists? (I would expect so given that this idea is very easy to come up with) and if there is not something like this, it leads me to think that the idea is just stupid...
+
+sorry in advance, English is not my first language.",rj1dvx
+Help. Please fast.,2,"Hey lads and lasses. So this is probably a really minor problem that I’m too stupid to fix. But here it goes. I have a really comfortable mattress and really warm duvets. But last night I couldn’t get to sleep until about 2 hours from when my dad sent me up to bed. I then woke up (now) and I jolted up instantly. I then for no reason walked into the bathroom and sat on the toilet. I got off and took a drink of water and when I left my head hurt and I was off balance. I don’t know what the hell is going on with my body. Please everyone help. Fast. I really need some sleep.
+
+Edit:
+If it’s any help:
+• I’m below 15
+• I sleep with my dog",fwx5y4
+People leave me and I don't know why.,3,"It's a long one. Sorry for any typos. 
+
+Okay, so here's my problem. All my life, friends would just leave me, with no explanation. 
+
+One friend I had for 5 years, and who was a part of the family, and my mom loved her like a daughter, left me to hang out with a new girl who dated her brother at the time. I messaged her yesterday (about five years after we stopped hanging out) and told her everything that still bothered me after all those years, and she said it was all my fault and that I must be on drugs to write that stuff to her. I didn't reply to that because she does not deserve it. But she did leave. 
+
+One girl, I really clicked with a year ago, (she is my boyfriend's sister's childhood friend) just stopped texting me or going out for coffee. I have no idea why. Maybe I should ask her, but I'm nervous about it. I don't want hee to assume that I'm clingy or something. 
+
+One girl, for whom I thought was literary my soulmate, changed her attitude when I got a boyfriend. When we started hanging out, I didn't have a boyfriend, neither did she, and we spent every moment together. About 2 years after hanging out, I met my boyfriend. She was happy, she liked him. About 3 months into our relationship, when she realized we were serious, she changed her attitude. I realized something was wrong, but I didn't want to jump to any conclusions. Then I got a job in a city where he lived too, and it all changed. I called her every day after work, and she wouldn' t ask me how I was, how he was, she would just talk about herself. Then we had a huge fight where she said that we're both retarded and deserve each other, that our relationship sucks. We didn't speak for a month and kinda patched it up. Now we talk every 2-3 months, sometimes not even then. I miss her, but whenever I think about what she said to me and how I felt it makes me sick. 
+
+I can't say that I didn't fuck up some of the other friendships I had, because I can't stand when people sneak behind my back or if they patronize me. I'm not perfect and I don't act like I am, but I believe that I didn't hurt nobody, at least not intentionally. 
+
+I don't know what is it about me that makes people leave. Do you think there's something wrong with me?",fwi9uo
+Should I be mad about my little sister getting things without trying while I have to work my butt off for things?,2,"*sorry for bad grammar and spelling just wanted to rant about this problem I had that came out around an hour ago*
+Recently since the new ACNH switch came out I've been begging my parents to get me one and recently my little sister (8years old) suddenly wants it. I kept telling my parents a bunch of reasons why she shouldnt get it for example she broke her charger for her ipad around 4-5+ times last year and also had a replace/fix her ipad a couple times during that same year. I also told my parents I'd they do get her one they would be wasting $300 escpially if I'm correct you cant get warranty and you would have to buy another switch to replace.
+So the real problem starts about an hour ago tonight. My sister and my grandma(I have a bad relationship with) talked about the ACNH switch and said to her she'll buy her one with her money tomorrow and told my dad. Over course being in the same room as mu dad I overheard their conversation and got really pissed about it. Since all my sister had todo was tell my grandma to buy her one. While I beg for my parents to try and get me one. What sucks even more is that all my devices like my laptop, games, and a switch(I wanted another one because I am a big fan of the game and the design)  I earned all of those with getting good grades and honor rolls. So I told my dad it was unfair and he said, "" it's your grandma's money and you should be happy for your sister"" And of course I'm pissed cause ik my grandma hates me and I hate her (more into that another time) and my grandma adores my sister.
+A week before  I tried to give my sister my old 3ds and a few minutes later to get changed she fricking put my 3ds back on the table and told me it was ugly and wanted the switch. I got pissed because I gave her that 3ds so she could learn if she actually wants the switch or not because I have and also for just 1 game. 
+Then yesterday she told my dad when he came home she didnt want the switch then I'm there all happy because I get a chance. Back to present day all the fucking sudden she wants it now.
+
+Is wrong for me to get mad her and should I be happy for her instead?",fsxpxl
+some sort of place to catalogue internet weirdos,1,"i cannot explain why , but it is very entertaining for me to watch some random youtuber investigating the internet activites of these people , idk i guess its like watching a crime documentary , but the problem is : its kinda difficult to intentionally find these videos , you cant just search ""internet weirdos"" on youtube and get a satisfying result , you can search the name of the person in question , but you would need to know it first , wich is not the case most of the times for me , so the idea that i suggest is : some kind of place where people can catalogue and discover these curious internet dwellers more easily. in this moment , the only thing that i can think about where this idea would work is a wiki page , but people in the comments might know about other places where the idea could be applied to.
+
+(what i mean by internet weirdos is things like chris chan , pamperchu , sephius rivendare , sangie and many others wich i cant recall the name , usualy perverts and very eccentric people)",rkexva
+A Portable handheld gaming PC,1,"So my idea is to get a portable handheld pc, but with an external gpu. Which in theory I believe is possible. (I'm just not sure how much battery power the thing would need to be able to run for a solid amount of time.)  
+But basically with an upboard squared, and a mini pcie to pci adapter, I can run a gpu on a tiny computer. And let's say I have a mini gtx1050 ti. Since both have its own cooling system, heat shouldn't be a problem. Only problem I'm stuck on is the size. I'm going to probably spend my summer messing with this idea to see if it can be possible. 
+
+The outcome would be a device similar to a DS. And it would be far, FAR, cheapter than buying a GPD win or a smach z. (At most 250$?) And of course I can get a weaker gpu too! Since the screen size is tiny, no one is going to notice if the graphics are not the greatest. Of course the CPU is something to laugh at, but hey this is mostly intended for gaming anyway! If I could do it the way I want, I would take an i3 raizen or something and slap on a cpu cooler lol.  
+
+
+Current problems I can think of:
+
+Size, (How big is the gtx 1050)  
+Heating, (How can I make the fan for the gtx 1050 unblocked while also making sure it's not in the way of something.)  
+Battery Life (How long can it run and how big of a battery will it take?)",bnc9h1
+"Revolutionary idea. Will surpass that of the sale price of Juul. Nothing like it. Would like to be more specific, however, Impossible to put out without NDA. Let's say that what I have will change the Fragrance market forever. It's not a fragrance either.",0,"Let's look at recent inventions that have changed the way we solve problems. The most disruptive technology has been the Smartphone, why? It has cemented our relationship to the Internet of Things. Now, look at what has not changed over the last one hundred year or better. What I have captured conceptually alters that paradigm. Our relationship to fragrances and their ability to bring communities together will create an ecosystem that will rival Smart Technology. Syncing my invention with nanotechnology has already been diagramed. Any interested in learning more please post.",bdgbu1
+Foam pepper spray,3,"Police often use pepper spray on people but it comes at a price of possibly blowing into the eyes of innocent bystanders or other officers blinding them as well and causing respiratory problems. Combine pepper spray with foam like in soap foamers, and add a concentrated food coloring to stain them as well in case they get away.  The thick foam won't blow around as much as a mist, and will stick to the person better. ",7595lq
+Local Sports App (Find me a Court),5,"Hey,
+
+The basic problem that this app would solve is that from my personal experience when I used to go play basketball in the local courts near my area, there would be a problem with the player population that day on the court.
+
+I would usually have no idea how many people would show up and how many would have a basketball with them. Now I did have the phone number of a couple of people and I would just text them to ask but there were many other players that I had no idea of. This resulted in times when there were very few players on the court and and you would just waste time and not have much fun or there was no one with a basketball.
+
+On the other hand there was a opposite problem experienced. I went to a court all ready to play and was welcomed with over 30 people trying to play on the same court. Now again in this case you barely got to play and it was a waste of time in the end.
+
+There seemed to be a mismatch in the court many times, for example after playing just a boring 2 v 2 you would find out that the court a few kilometers away had 6 people playing and you could have played full court with them. Or 30 people were jammed in one court while there were 2 other courts that had barely any players there. Only if there was a way players knew which court to go to to enjoy basketball as per their need.
+
+Now here comes an app which lists all basketball courts near you and you can expand the search area if you can travel further easily (up to you). So now you select a court and get to know it's details like location, court condition and maybe some recent pictures or videos of the court. Next you have the option to select that you are going to play at that court and at what time. Your entry will be recorded and there can be some visual that shows the players that want to play at that court along with their timings. You can look at the player details which would have the player's basic bio data and to make things more interesting you add your skills, what position you play and your physical attributes. You can mention if you play with a team or club.
+
+Value of the App ? Now any basketball player would have a good idea in which court and at what time how many players are attending and this way the courts can be utilized in a far better way with people going to courts according to their needs.
+
+FYI, I do not play myself anymore as I am busy with my job but I do think of the problem I used to have a teenager and think about an app for that problem. This concept can be further expanded to other sports with similar problems e.g football, hockey and tennis.",r6fqzm
+Military and Luxury Planes that turn into Different Sized Hangers.,1,"\*Hangar 😭
+
+The fuselage *separates and the long halves spread apart along a track* underneath the wing becoming the wall of the hangar. This can even be done rudimentarily with a fuselage that fits together *with large jigsaw puzzle-like teeth* tightly bound together forming a seam running along its length at the bottom and *a locking rod* stuck through the seam of teeth that connects the fuselage.
+
+The rudimentary idea for this is very practical for a minimalistic design. The halves of the fuselage open and run along the track towards the tip of the wings forming a low hangar, which has a prehistoric rock home aesthetic.
+
+This idea has so many applications and tweaks:
+
+Instead of the fuselage separating, legs can simply extend from the tips of the wings and create more of a tent, without walls.
+
+Barn-sized and Hangar-sized airplanes might require smaller fuselages, but that's not problematic:
+
+Implementing joints into the wings of these crafts would allow the airplanes enhanced turning capabilities by tilting their wings. Seeing a large bird aircraft tilt its wings would look intense especially with loose and fast hinge release mechanism, just like how a loose hinge flops around. This flapping and tilting causes the craft to look futuristic and intimidating! Seeing one of these in the sky would be like something you'd see in a movie, and with freaky lights too, it could be really intimidating!
+
+Having airplanes that serve multiple functions like gunship designs or water craft, these birds have a lot of human charm to them I'd love to see come alive in both military and luxury use.
+
+tl;dr
+
+"" + "" becomes "" H """,qr9o5l
+Problem with my big brother,6,My big brother and I have to share the same room so I have nowhere to go when we go to bed and he starts bitching at me. He thinks he knows everything so when I have a problem he gives the shitiest advice ever and the gets pissy when I refuse his advice. I can't do anything to make him STFU and it is a serious problem as he is wearing me down every night. What do I do?,fs6t3v
+I don't have a voice in my house,4,"My family is complicated to say the least. From an early point in my life my mom did abuse my sisters and I, which really made me a quiet person even to this day. I always feel like I don't have a voice in many situations, and most of the time I don't. If a disagreement happens between my sister and i, I would also get pieced out because I don't make money or have a job. Anyways I got out of that situation with my mom which was extremely taxing on me, and I moved in with my oldest sister, kia, around the age of 15 or 16, I'm 18 now. I can't thank my sister enough for what she has done but it comes with a few problems. My sister restricts so much from me and even my friends can see it too, for example before this corona stuff happened, I've had to babysit almost every week for multiple times a week, for multiple hours until midnight or so. I would get angry at her but not say anything about it because one time she threatened to kick me out of her house, and I have nowhere else to go. She says our family is a team, which I highly dislike because we're more than a team, we're a family. I also dislike this stigma because she treats me like I'm the worse person ever at times and I'm a good student and I'm respectful. She restricts my video game usage, which at first I understood and abided by. But now she's restricting it even more and I have no clue why. I did research on internet usage on games and electricity usage on games as well because it might be a financial thing. When I presented Kia with this information she told me she didn't care. Video games don't take up that many resources when compared to cable boxes or phones and honestly games helps me cope with alot of the mental problems that I have, and helps me actually become happy despite me overthinking, or not being sure of myself. She limited my entire wifi usage for my other sister, Quiana, and I for 4 shared hours. So school work, YouTube, phone usage, and game playing all have to fall between those four hours. I don't understand why she would implement this considering my sister's husband isn't even out of a job considering all of this corona stuff. The only enjoyment I've had so far is playing video games/watching anime for the short time I'm available to. At times like this sure my mom would beat me and whatnot but I wonder if she would limit my passions like Kia does. It really hurts because it's like her way of telling me ""I don't care about how you find your happiness."" The dream I set for myself is to be a gaming YouTuber funny enough, but knowing that my family knows this they just don't care about my passion for editing videos. It's really hard for me to speak up considering I was abused before and Kia dangles that over my head. For college I need a PC which I'm not asking for it here it's just needed for a film college I got accepted into and she expects me to ask my mom for it. I seriously hate my mom for the things she's done to me. Why would I talk to her? Why would I ask her for stuff like nothing's never happened?",fra83u
+My shitty problems,7,"I'm every day frustrated because i feel like no one cares about me. I see people in social media having fun with their friends and couples and I envy them a lot.
+
+I fantasize a lot of having a boyfriend and how cute is that, but then i realize I will never have one.
+
+I just want someone to love me but that's imposible because of how i am.
+
+I know this is a shitty problem and that there are people more fucked up than me, but I'm stupid and I care about meaningless things.",fqa5n9
+A considerably intimate problem so please dont find this funny.,3,"Hey guys. Im M16. This is my first time in this community. I have a question or more possibly a problem. Ten minutes ago I just took a great warm shower. Then I went to urinate and got quite scared for a second as my urine was neither yellow or transparent, it was cloudy. I probably wouldnt notice this at first if the tip of my penis didnt burn a bit. I dont genuinly talk about it but as I dont know what this is I am typing here with a hope of getting a response that might tell me what is going on with my penis. I thought that it might have been a bit of soap getting into my penis while I was taking a shower, but as I said, I am not sure, so please, any help will be greatly appreciated. <3
+
+Thank you in advance",fm2uf9
+Monitor Problems,1,After about 20 min of me being on my monitor everything starts to get outlined with green pixels and it slowly gets worse and worse the longer im on my computer. Does anyone know whats wrong or how I fix this?,fh49yk
+A Problem I have.,2,"So Im in my school and yes Im posting this during my Math Class, in the meanwhile of being in Math Class some thots are being annoying towards me. And I tell them to be quiet and I get snitched on by them. And I get blamed for doing everything? It doesn't really make sense and these tiktok thots wont go away.",fgibs6
+Oh boy (problems),5,"Sit down, strap in, it's about to get proper teenage drama bad. There'll be a TL;DR
+i'm terribly sorry if this comes across as bragging,
+I just need to share this?!
+
+#
+Hi, i'm a F17 and slowly freaking the fuck out.
+(For the horoscope boys out there i'm a libra and my star sign fits all these problems, so i am doomed) for clarity ive put a date at the bottom so you guys have a 'timeline'?
+
+Okay, i have all the boy problems imaginable.
+#
+My best friend is in love with me, has openly confessed it to me and wants to just give it a try and says that if it doesn't work out we'll stay friends but i dont believe it. 
+He's a M26 and his behaviour is getting out of line, to the point where its bothering me but i cant say anything without hurting him. Also he's a classmate at college. Extra spicy 👌🏻
+(03-2020)
+#
+Another guy (M19) from school expressed his love for me, he's in the year above me. Told his entire class how in love he is with me and how amazing i am. Went out with him to a concert once, as friends. Then i couldnt get back due to the public transport, and i slept over at his place. He then told his whole class that we slept together but we didnt?! I had to turn him down 12 times..
+Now after a month of silence he texted me again so i blocked him and hopefully he'll ignore me at school. Oh also my teachers got wind of that and my health counselor made me have a chat with her because of my behaviour around boys?! 
+And that i wont be allowed on certain trips and projects if i didnt stop acting like i did. Mind you i didnt do anything that dude told his class a bunch of whack things and now its my fault?
+(12/01-2019/2020)
+#
+Okay so i'm good friends with two brothers.
+One is M20 and the other is M23, i do scouting with both of them and often after were done in the evening we go to their house for a drink.
+Now with M23 we go to movies, sail a lot, just generally hang out etc. We're good friends. Now about a year and a half ago i asked him if he was into me because he was giving me vague signs. And at that point i wasnt into him or anything but i just needed to know. Now this week he came back from a trip to America for uni and we went to the movies and finally saw each other a lot again and he started to give 'the signs'. The classic putting his arm around me, pulling me in close, cuddling, annoying me by poking me in my side or booping my nose. But only when were alone.
+Now outside of being the brother of one of my friends, hes a good friend of my ex. :'( 
+Now i dont want to ask him AGAIN if hes into me?!
+(03-2020, this is all taking place now yay)
+#
+Speaking of exes, i have been having weird dreams of my ex boyfriends (M26) new gf (F27) murdering me. Really great 👍🏻
+(02-2020)
+#
+A boy (M21) who i expressed feelings for rejected me and now all of his friends are making fun of me. And making fun of him for me liking him. Such fun.
+(11-2019)
+#
+A guy i had a weird fling with for a while who ended up rejecting me when i wanted to move into a relationship asked me out. I rejected because i'm not into me anymore and now every time i try to meet up with him and play video games as friends he just acts weird. I dont want to stop being friends with all these people who like me and i rejected?!
+(02/03-2020)
+#
+Then there's another guy who i expressed my interest in who said he wasnt ready for a relationship and just kept leading me on saying he was moving on but ended up fighting with me.
+(This was obviously toxic but hey im blind)
+(12/01/02-2020)
+#
+
+TL;DR
+basic female teen having a bunch of boys interested in me who I don't want to date for a various list of valid reasons. Then theres the one(s) i do want to date, dont want to me.
+I just needed to leave this somewhere because it feels like im going insane. 
+Once again, i'm sorry if this comes along as bragging, it is the opposite. ⊙﹏⊙
+
+#
+
+Also for all of you guys' clarity, i dont have an age gap issue, hence some of the guys mentioned are very much older than me. Also i live in Europe and the age of consent is 16.
+My friends support my decisions but i feel like they are getting tired of all of my drama + most of the mentioned people my friends know and its embarrassing for the mentioned ones to just be openly outed as liking me, atleast in my opinion?
+
+Also also, i'm currently doing an audio engineer study so its me and 20 other boys. Doesn't make life easier.
+
+Maybe i'm just heavily self obsessed and think that everyone is just in love me
+¯\_(ツ)_/¯
+
+-go you for reaching it to the end ( ◜‿◝ )♡",ffnng7
+how my whole school goes against me,3,"so this is how it begins.
+
+im currently grade 7 but this happened when i was grade 5. this guy, im gonna call him Luke. we always played soccer with other people in my class and every time i have the ball most of the time (as usual) someone would chase you to get the ball and every time he come for me, he always pushes me and after he done that a few times i kindly told him to stop. he kept on pushing me so i was yelling at him, i even told the teacher once and she/he (i dont remember) told Luke to stop, and he said he would stop but guess what.
+
+he didn't.
+
+i even went to the teacher's office to talk about it and she was talking like it meant nothing
+
+and he continued
+
+because this was my first problem with another student that physically touch me. i told my mom and it kind of went like this (since im to lazy to just tell it in details.):
+
+Mom: yes OP?
+
+me: Mom Luke kept on pushing me at school
+
+Mom: srsly?? push him or punch him if he pushes you again
+
+(mind you i've never hit someone ever since i was in school)
+
+Me: okay..
+
+he pushed me again and the one time i punch him he falls down crying and in my class Luke said he could beat me in a fight soo easily, almost my whole class heard and kept on telling me ""YOU!!?? OUT OF ALL PEOPLE YOU CAN BEAT HIM??? DONT MAKE ME LAUGH""
+
+so yeah as soon as i punch him i go to the office and when i do i got to the principle's office. she looks at me with some sort of death glare and when i told her she told ME i had to go to stay in the office why me???
+
+i still get mad about it today so yeah..
+
+this is my first post so i might not be that good",fflrzv
+Girls make no sense: Case example,2,"I'm a sophomore in high school and recently and because I'm not a loser I talk to girls, sometimes, it's not a challenge. However something terrible happened. In my math class, I was seated with 3 other girls in a table group of 4. 
+
+I've sat with them for about 6 months now and every day my confusion and deep annoyance only grows. Initially I thought ""Hell yeah 3 girls this is pretty sweet."" However I was very wrong, it was not sweet at all. 
+
+I had always heard of guys saying how troublesome and confusing girls where and how they couldn't understand their interests and stuff, but I always thought It was just the ""guy"" thing to do and you just kinda had to say you didn't get girls because you where a guy. Turns out I was wrong, kinda.
+
+So we hit it off and our table group develops a friendly group dynamic. So we can be cordial but most the time we are harmlessly being mean to each other just because. However then things began getting weird. These females could just start talking about the boys they like and their relationships and what who said to whoever and other mind-bendingly boring stuff. They could talk for like 40 minutes about just garbage. I realized they where the exception because other girls don't ONLY talk about or as involved in melodrama as these girls do. 
+
+Eventually the teacher kind of gave up on telling them to be quite and only does when she needs to address the class or lecture. Math comes very easily to me and the class goes slow because we have a stupid class, and also they're juniors who managed to fail the class and are repeating. The stupidest people get to set the pace for the whole class unfortunately. So besides studying the girls, I've done other productive things like learn more code, learn more spanish outside of spanish class, etc. 
+
+Anyway that's kinda the context. So the females, they're like a whole other species, they have very different interests, senses of humor, etc. They say things that are totally not funny and laugh about it. I  know it works both ways but I just cannot understand them. 
+
+Now to get specific. I'll start with the best girl. Daniella, she's a transfer student from Spain, she stayed for about 4 months until she had to unfortunately leave, she was smart and nice and her problems which where very similar to the other 2 girls problems where actually interesting. She was mad rich, she had a legit silver rolex and went to a private school. She only came here to learn english and get grounded.  Anyway she's gone but she was great, and it was really cool to hear about the lifestyle she lived.
+
+Anyway the next caste
+
+Ember, Katy, and Ashley
+
+Ember and Katy are both your normal gossipy blonde bitchy girls. Both just talk about boys and makeup and cliche girl stuff. 
+
+Ashley was Daniella's replacement. I was very unsure about her, I was sad to see Daniella get replaced the day after she left. But it turned out Ashley was actually not so bad. She was similar to the other two in that she also was gossipy but she was emotionally and socially smarter. She was also very introspective. Weirdly, she extremely bad at math, even though I considered her the smartest of the girls. 
+
+Anyway Ember made probably the least sense. She had this hearing aid she always wore. I kept telling her it's dangerous because now the government has complete control over one of her senses, and what If someone hacked into it? She would also wear these massive hoop earrings. I hated them. Anytime she wore them I would tell her how goofy they where and how they made no sense. I could fit my head through them. And for her own safety they need to be removed. She never listens to my advice though, I kept on telling her how if she gets near a powerful magnet they are going to tear her ear. 
+
+Ember has been my main concern. She's the most hopeless. Katy is the most bitchy and puts on the ""tough delinquent girl"" act the strongest. But she is the most academic of the girls. She's not terrible if you get to know her.
+
+Ember however is very stupid. One day, she decided to unlearn the rules of basic math. All of a sudden, she didn't understand how negatives worked. She thought a negative minus a negative would result in a more negative number, which it doesn't. However she somehow reached this understanding and had such extreme confidence in it that it was impossible to change her mind without getting the teacher behind me. 
+
+That's when I realized I had to help her with tough love. I so began calling her stupid every chance I got. My hope was she would realize that she is, in fact, stupid. This way at least when she says something stupid, she won't do it with such confidence. Or maybe, after she realizes she's stupid, she will gain the ability to think about the things she says, and hopefully think something like ""oh wait, I need to remember how dumb I am, maybe I should reconsider if what I'm saying is right or if I should say it at all?"" 
+
+Unfortunately I got tired of my efforts going unappreciated, so I stopped. They were also being very mean to me in response, even after I explained my motivations. 
+
+Nothing major has happened recently. I am looking for new soft skills to learn while in class. I need a use for my time.",fevkvz
+People App,5,"Problem:
+
+* Nowadays we don't see all of the important people in our lives; friends, family and co workers. I used Facebook to see if any important events happened to them but its filled with ads and random posts.
+* When we meet new people we don't see everyday it's hard to recall the last conversations. But if you do it shows that you care.
+
+Solution:
+
+* you have a timeline of important events that happened in your life: married, got a dog, bought a house, etc. you can share your timeline with people you trust. Data is never shared outside of your circle.
+* Keep track of the last time you talked to them. add notes like 'Adam loves skiing' or 'Josh just went through a tough surgery'.
+
+Value:
+
+* Cross platform - works across all iOS Apple Ecosystem (we'll think about Android later): iPad, iOS, macOS, watchOS and maybe tvOS
+* Uses local and iCloud database: everything is secure, you have total control over your data.",qtnynj
+A way to transport energy from the Sahara Desert.,6,"The Sahara Desert is one of the biggest untapped energy reserves. The problem is transporting the electricity to other countries but who says we just have to send electricity? My idea is launching a giant mirror into orbit and transmit microwaves from the Sahara Desert, reflect it off the mirror, to a receiver in Europe. Thank you for reading.",qlhrv1
+Tell Me all Your Music Problems,3,"Hello everyone, So I am doing a project for my Music Products class where I have to identify a problem in the music products or services industry and solve it. What are the things that irk you about playing, listening to or writing music. I want you to bring out your dark side and tell me what you absolutely hate about everything concerning music. And maybe, just maybe, I'll solve it for you!",fczzfk
+Wrong place,2,"Well, sorry if that post is long. I got nobody to talk about this and I don't speak english well so I'll try my best since I'm belgian.
+
+Everything begun when I was 4 years old, my dad work in the navy and was often at the other side of the world for his job. My mother work in a restaurant company that have a lot of restaurant in my country so we didn't had a lack of money to live, my sister and I had a lot of present every weeks so we played a lot together. I loved my sister a lot as her big brother and I even learned her to walk (she's two years younger than me).
+But everything wasn't always pink, my sister and I are different from other people since we've the Asperger's syndrome (a form of autism). That make that we've a lot of difficulty to understand the other humans and can learn very fast when we want to, our dad has the same thing than us and he knew that we were like him when we were young. So he bring us by people who are specialised with child like us to know how to manage us but our mother weren't okay with that because she wanted that we had a ""normal"" and happy life. My sister and I were diagnosed with the Asperger's syndrome and so we passed some test to know at wich point it was.
+
+Me at 4 years old I had an IQ of 130, my sister at 2 years old 140. She already could speak and do math and had a complete photographic memory. 
+
+Our parents discussed about these results, our dad was very happy and wanted to put us in an specialised school but our mother was a bit horryfied at the tought that we would only study without experimenting a normal life. So our dad put my sister and I in an school with other child of our age but with an experimental program that learned us an foreign language very young. At the age of 5 we had a test to enter the next phase of the program and my father sing me in without my mother knowing it. 
+
+When they got the letter saying that I wasn't accepted because of my hyperactivity even if I had the best scotes my dad phoned to the director of the program and said that the exam wasn't staying an hour on a chair but it was answering questions in different topics in an foreign language. After a few minuts discussing I was accepted. My mother couldn't stand that our dad was putting us in an experimental program like laboratory mices so they divorced but my sister and I entered the program.
+
+I entered in elementary school, all my lessons were in Dutch except the French lesson. The other child in my class were all ""normal"", they weren't ""special"" like me so they learned slowly compared to me and when you're so young you're an alien for the others. 
+If you wanted something you had to ask it in dutch even if we hadn't learned the vocabulary yet and the program was tough so we had pretty none vocabulary the first 3 years. And it so that an accident that began the real nightmare happened. I needed to go to toilet but i forgot how to say it, I was 6 years old, hypercative so I wasn't listening a lot in class and the teacher was very strict with me because she knew how I was.
+Two hours later, i remembered how to say it. I stood up and walked to the teacher but in the middle of the class it was too much and I pee on myself. Everybody was laughing about me and saying that the alien leaked in the middle of the class. The next day the whole school knew it and at the midtime pause during the lunch some people 5 years above me made me dink pee making me believe that it was apple juice.
+It was so that I started being bullied because I'm ""different"". In the beginning I tought that it was only little jokes that was normal between peoples (I knew nothing about social and it was really hard to me to understand, even now I'll turn 20 this summer and I have struggles to communicate).
+I lived one week with my mother and the other week with my father, they hated each other and my sister and I, we needed to handle it (insults, manipulation,...). My sister weren't aware of what it was because I protected her as much as possible. She was my little world of purity and cuteness. Always smiling, fragile and pure. A lovely little sister with blue/grey eyes and blond hairs. 
+Since she was victim of a rape... I failed.. I couldn't protect her, my dad was on a boat far away and my mother weren't home.. 
+Since this day she lost her smile a bit more everyday, her eyes became like mine, completely grey and her hairs became more brown.
+She isolated her, played less and less with me. Keeping the secret of her rape during years.
+Since that happen I became more and more aware of the world around me, how people (even adults) treated me like an alien or a genius. I learned that well when I had an accident and needed a surgery that was 8 hours long or I couldn't walk anymore. Gracefully this accident also happened when my dad was in mission so the army paid the best surgeons to opperate me  because they were responsible for my security when my dad was in mission.
+The years passed and the situation got worse. My dad and mother became alcoholic because my sister talked about her rape. My dad couldn't find a stable relationship and so living with him became like managing a child when you're 8.
+I got bullied from my 6 years old to my 15 years old. I couldn't get out of the experimental program since I was too precious with my results so I was forced to stay with my bullyers until the end of my scholarship.
+I became depressed at 9, went to the psychologist for 4 years but nothing worked and I made 2 psychologist depressed so nobody wanted to listen to me since I was a ""special case of young child with the maturity of an old man"". Some people even said of me that it was like I made the world war when I talked. 
+
+My dad said me horrible things, that I was responsible of all his problems. That my behavior bringed all the problems that destroyed him. My mother was more gentle with me and managed everything so that I could have a better life, enjoying a bit my child life. For that I'm going to thank her forever.
+But that didn't last long.
+When I was 10 my dad met a women that had 4 girls. I lived a constant nightmare during 5 years. It was so hard to live that I tried twice to kill myself bit the both times I stopped right before I died because I tought that I must stay alive for my mom and my sister. I forced my sister to live exclusively by my mom and managed to make a trial against my father to live by my mom except for 2 weekends a month and the half of the holydays. 
+Between my 15 and 18th anniversary a lot of things happened. Since I lost my virginity when I was 12 a lot of my """"""""""friends"""""""""" asked my help to have girlfriends or how to begin a sexual life without too much problems and how to handle it. I became to get integrate in the class and made my first real friendly relationships (at least I tought) so I learned psychology and how to handle friends. 
+I begun to teach lessons after the school in an class near the study room of the school during 2 years, I helped as much as possible everyone who didn't understood something and I even went to some of them's houses around 10PM the days before exams to help them. I managed this, I listenned to their problems sometimes late in the night and helped them to solve it, I litteraly carried 20 lifes that were for me nothing but simple compared to mine and one day I fell on the ground after my day at school. I went back home, said ""Hi mom! How was your day?"" (I didn't saw her a llt because at this moment she worked 60 hours a week because we were 4 to live in the house and life became extremely expensive) and I fell appart. I made a burn-out when I was 16 years old. I stopped teaching in the classroom after the school and helped only one girl with teaching because I knew that without me she wouldn't pass her exams. (Actually she's studying to become social worker because I inspired her.)
+After this my depression got worse and worse because my mother didn't stand under the pressure of her work and became more and more alcoholic.
+My father's mind fell apart so I went back by him to help him. I graduated from the experimental program and my mother met her first love back. We moved out (I moved out at least 8 times during my life actually) by his house and I tried university in biology...
+
+I think that life want me to suffer because I fell in love with a girl that was perfect, she listenned to my and the story of my life, I listenned to her and we got in couple. In december 2018 my grandfather had an cerebrovascular accident right before christmas and my exams in january. I move by my father because he lived closer to the University and so I could sleep more than 4 hours per night. Even tough i studied as I could but don't passed any exams. 3 month later my girlfriend lost two of her grand parents and by my side my father tried to kill himself, I arrived in time to stop him and he went to the hospital. I lived alone in a big house for 2 month, it was hard with the pressure of the university, my girlfriend depressed with the lost of their grand parents and my father in the hospital after an attempt to kill himself. The result: I said something horrible without noticing it directly and didn't erase the message at time (on messenger) so she broke with me right before the exams in july... I passed 2 exams on the 9. I was close for some of them with 9.8/20 but I was too tired.. Exhausted of this life and I said fuck off to the university. I had nobody to help me, I was and am alone since I'm born. Without anybody to try to understand me. I'm now learning in computing and programming since I think like a computer. A couple of days ago I lost my grandfather, he finally died after 2 years of dying slowly in the hospital. Everytimes saying to me that he suffer. My dad is always alcoholic, my mom have a better life since I left her home so I don't want to bother her with my problems (I already tried and it was catastrophic). My best-friend has his problems and I can't ask him help. My sister is rebuilding herself slightly. And me I'm carrying my whole family even if I'm completely broken in pieces. I can't cry anymore even if I want or need it. A lot of things have the taste of blood, my vision often goes dark and nothing brings me fun. I'm bored constantly. 
+
+Here I resumed my life, I didn't tell everything. It would take a lot of time. Too much time.
+
+If you read this thank you, it already helped me a bit. At least I hope it because I'm so stressed and depressed that I lost sleep years ago. 
+
+This world sucks, I've been born in the wrong time or in the wrong world. I don't enjoy anything anymore and sometimes I get lost in my dreams of another world where I can finally feel peace in my heart and mind. That's the last thing that make me cry.. 
+A plain, with the sun, a wind as soft as a cloud and just ths sound of the delicate wind...",fcnxf0
+I really really really miss my grand-grandma,6,"I know this is not a real problem, but I still miss her to this this day. She passed on my birthday last year. She was a real fighter and always confronted life arms wide open. I would give one year of my life just to spend a single day again with her. I love you Grandma, and I miss you.",fcmc5a
+My Experiences When Shopping,3,"I hope I found the right thread :/
+
+I would just like to say I'm capable of going shopping by myself. When ever I go to jbhifi the person who I often spoke to wasn't too rude. Some employees are straight up rude and unhelpful, but it was the fact that they seemed to know me and when ever I go to tweed city jbhifi they always give me a stare and act like I'm a f$cking criminal. Not to long ago when I went to jbhifi to grab something... can't remember what it was, one of the dudes there asked where my parents were. Like wtf, C$$t I'm 17 nearly 18 I don't need a parent by my side to do basic shopping, like where's your friendly employee attitude. This happens all the time with other things like not giving a clear explanation on a particular product and such... keep in mind I'm friendly to them always. In fact I don't go shopping really at all. The only time I go shopping is when I wanna get myself something legendary, or rarely go with my mum or dad or just with mates.
+I don't hate going out but when someone takes control of me to do basic necessities it really pisses me off. Some stores have this problem but I'll keep it short.",fc8kvh
+"Every call center software can predict about how long the hold is, and can call you back instead of waiting on hold. Calling you back needs to be the default.",10,"I know there are more important things in the world than being on hold. But this is a problem that can be solved, and in fact has been solved. When you are put on hold for something, the system default needs to be that it will announce that it will call you back in about X minutes, and give you the option of waiting. If it's under a two minute wait, it can just put you on hold.
+
+This needs to be a law. There's no technological reason for this not to be the default behavior of every call center in the country, it's just a question of not giving a shit about customers.",rcwl0s
+A digital bookmark system for physical books,2,"I'm an avid reader, mostly digital, but I do pick up these things know as 'physical book' once in a while. I have firsthand experience of the problem of keeping track of where you left off, espcially when you haven't read a book in a while. I would like to create an app where users can enter 'book' and bookmarks (where the last stopped reading). This is the basic idea. What do you readers think? Up or down.",rmimhl
+An mental health support app for people that go to the same school,1,"So school shootings have been a huge problem, and so has the increase in student suicides and mental health issues. I'm thinking of making an app for people that go to the same school to connect with each other (anonymously or not) in mental health chat groups. Different chat groups for different things (eating disorders, anxiety, depression, etc.) So students can feel more connected to their community.
+
+Of course this idea has potential problems. It has to be moderated in order to avoid offensive things, and there has to be a way to ensure that only people that actually go to the school get into school's group (maybe they have to put in their school IDs). But just an idea.",rvccxb
+App for Gout & Kidney stone foods,1,"I’ll try to give a short and sweet summary as I have questions that people may have solutions to. Any and all feedback appreciated.
+
+I currently have gout & previously had kidney stones. Biggest change that immediately occurs is diet & water intake. 
+
+A large amount of misinformation and confusing data, one website says eating x is okay when you’ve had stones or gout, the second link will say the complete opposite. 
+
+The more direct information (for my type of stones etc & gout) is to eat foods that do not raise uric acid levels (this is caused by purines) 
+
+I’d like to be able to scan the barcodes of food, or just search (because a family friends dinner won’t have a barcode) something along the lines of my fitness pal, the problem from research that I’ve found is that the data required isn’t included in a large amount of foods in the barcode data.
+
+I’ve searched for databases with APIs trying to find this information but no luck so far.
+
+- What are other means possible for attaining this information? 
+- is there possibly other metrics that can be used to measure if a food or drink is suitable for a users condition?
+- Huge milestone but is there a possibility to have it reviewed by health organisations to gain some form of accreditation for accuracy or approval?",rshsa3
+Marriage/Dating app for Atheists/Agnostics,0,"As someone who was raised religious but is currently agnostic, and as someone who knows multiple atheists, we all are looking for serious relationships that could potentially lead to marriage. If we stuck with our religion at birth we would have no problems finding someone serious to possibly marry but since we aren’t of those religions anymore, its harder for us to find someone who is Atheist/Agnostic and shares those same values. So what if there was a Marriage/Dating app for atheists/agnostics and it would operate just like every other dating app, but for people who want something serious.",rq3ws6
+Peer support,0,Chat based forum for people to help others. Users can make their own chats visible for others where everyone can ask/answer questions and find solutions to their problems.,rnpmc9
+Made a new math type but i’m scared of someone stealing it,3,"Basically, this mathematic type i made predicts random events (basically predicting the unpredictable, gambling, when death comes, whats after death, etc) because i needed it for a new augmentation type for humans, problem is, i can’t talk to anyone with it because i’m scared of it being stolen and making me look like i’m a liar and trying to steal the concept for myself, reason being is because i’m 15, but i also made some good inventions and ideas, and nobody would believe i came up with it
+
+Any tips?",rsqhv1
+Help with best path forward,1,"Hi everyone, I'm seeking some advice about how to move forward.
+
+I have an idea in the works. I've been doing everything I can to bring it to life with absolutely no experience. Unfortunately, I've hit a roadblock in the prototype phase. One piece of my design didn't work and I have a few redesigns I'd like to try. Here's my problem: I can't get the new pieces to work out in the 3D software, and I believe it is because I am so inexperienced and am still lacking ability. I'm using free Tinkercad. 
+
+Would you recommend spending more time on learning 3D design and/or spending on better software or hiring someone to help me with this piece? What do I need to do in regards to keeping all rights if I hire someone? 
+
+Any advice is very much appreciated!",rr9he4
+What would the Russians do?,0,"I ask myself this from time to time as a way to say: “is there a simpler solution to this problem” 
+
+NASA spent $12B developing a pen that would write in space. The Russians used a pencil.",rnnqnk
+Multiple player matching irl. More explanation in post.,1,"(Edit. I mean multiplayer irl 😅) I'm not great with explanation but bare with me....
+
+What if there was a company/app or whatever.... that teamed up with places like bowling,golf,Lazer tag or escape the room places so that we'd be matched with other players.
+
+The only problem I could think of as privacy/duplicate profiles but that's what the main company is for. You sign up to the main company with your real info and then use an alias/username at the sub company's. If that makes sense....?
+
+It could be used for making friends, dating or whatever. You could pick a certain age and gender to vs or pair with. At the end of the game you get a survey with options to rate another player and if you want to play with them again or share your info or whatever. Everyone would have gaming profiles.
+
+Idk something along these lines anyways...I'd join up if it were a thing. Help shy people like me have a chance at making new friends 🤣",rq32am
+"a yes/no vote: Fire all politicians and they can never work in government again? Theres probably lots of good politicians, and lots of bad politicians, but the purpose is not to judge them but for the next politicians to be chosen on their merits more than do those already in power like them",1,,rpuwcv
+A story set in a world filled with stereotypical fantasy and RPG tropes that explores realistic consequences and reactions involving these tropes.,4,"I first came up with this idea when I was absolutely hammered with my friends and some of their parents. My friends mom and I came up with the general idea, because I hated the fucking hobbit movies so much for what they did to my favorite book of all time. Obviously looking back on it this isn’t even really true, but I said that a goofy “the office” style documentary would have better captured the lighthearted adventure of the book (even now I think it would have been better than what they did with it). But we had a laugh and kinda talked about how it would be funny to see the dwarves sitting there being interviewed and grumbling about the shitty food and goblins and whatever else. 
+
+So since then I’ve always had this little inkling of an idea of a bunch of stories set in a fantasy world, but where it really tries to emphasize how normalized all of the ridiculous fantasy shit is. I’m thinking of things like how some ‘adventurers’ become insanely rich and even affect the politics of major kingdoms and states like in most fantasy settings but then bringing in the perspective of more mediocre adventurers and how it isn’t so glorious and kinda sucks and they struggle to get by dealing with relatively minor problems like the occasional weak magical monster. Maybe something about a group of average soldiers and the issues they have with coming face to face with horrible monsters and legendary warriors that have god-like speed and strength. A merchant who has to deal with magic being an ever present issue and trying to avoid getting scammed by wizards. Stuff like that. 
+
+I don’t know if this has been done before, I’m not really into much contemporary fantasy but I always thought this was a cool idea.",ro4dkq
+The Virtual Reef of Intellectual Property,1,"Cross-pollination has been mentioned in many studies as the way individuals from different backgrounds come together to share inspirations, motivation and support. That is what usually happens in metropolitan areas. Cities like New York, San Francisco, and Tokyo attract creative minds from across the world. They are hubs of innovation that keep pushing the boundaries of what’s possible and that is what [**Arkbase**](http://arkbase.co/) is all about on the third layer of the internet, the [**Web3**](https://finance.yahoo.com/news/what-is-web3-new-version-of-the-internet-everyone-is-talking-about-130641883.html?guccounter=1&guce_referrer=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_sig=AQAAAHYfWFkwLfTyr6pZy88YAS7ftiZg-8qvsQjQKp3gSVAjFf-ArkNnUrhJWcKq3u7Wbcv5082NyilqxdS62AxlXtgRoNsUYHG6kuTriBSERahVwPgv3-p3dgXZyq16gmMXZocsM6uladmYRTUH9k4XKUBATKJKvyrfBFktqQ3sQsFV).
+
+Arkbase can be viewed as a virtual reef where inventors, developers, and investors come together to nurture invention ideas that will change the way things are done. We help abstract ideas get exposure in a crypto-safe environment. What that means is all ideas that are shared on our platform are secured through a Public Ledger Technology (PLT) which saves every transaction in multiple locations and gives a public receipt back in seconds. This allows inventors to bring their supporters in this safe place to discuss the development of their ideas. Once a brainstorming session is concluded, a vote can be taken in a similar decentralized way.
+
+Though voting can usually be considered a complicated process, services like [**snapshot.org**](https://snapshot.org/) make it easy and transparent. As mentioned in our [**previous blog**](https://www.arkbase.co/post/token-economics-serving-inventions) about token economics, early investors, along with inventors’ families and friends, are the actual decision-makers through their position of the invention coin. They get to decide where the funds get allocated and what direction should the developing team go. Now the developers, or contributors as we like to call them, are a bit different, they have two ways to join the community and a lesser commitment option. They can either buy tokens in projects they believe in or work their way in.
+
+Developers’ compensation through tokens solves the inventor’s main current problem, being prey to bottom feeders. Getting paid through tokens means that it is in the interest of the developers to do a good job and stick around as long as possible. A CAD designer, for example, can choose to work for an invention and get paid in a token that is worth 0.2 dollars and then stick around and participate in the cross-pollination and voting processes that can bring the value of such a token up to 0.5 or 1 dollar. This process is unique to Arkbase and promises all with a stake in the invention of a democratized environment where every voice is heard and every token held is weighed.
+
+Bringing inventors together with early investors and contributors on one public secure authenticated table could be achieved only after the adaptation of crypto technologies, PLT to be exact and Arkbase is dedicated fully to solving the inventor’s problem. With us, you don’t have to do it alone, we’ll be with you the whole nine yards. We’ll help you launch your coin, raise funds and get developers to work with you using your own token, we only succeed after you do. As [**growth engineering**](https://www.growthengineering.co.uk/) defines cross-pollination “It's about combining the intellectual capital of individuals with different ways of thinking to reach innovative solutions.” and Arkbase is going to be the virtual reef to do so.",ryb45n
+I am looking for someone in the UK who can partner up with me regarding an idea for an app.,0,"The app is a security app. I don't want to say anymore at this stage. 
+
+I understand their are many dreamers who think they have invented the next best thing after sliced bread, but I feel I am a level headed person. I think my app idea has a lot of potential and there is currently nothing like it. It definitely solves a problem. 
+
+Any serious person would need to meet up with me. I'm based in Bradford, West Yorkshire, UK.
+
+The app is currently just an idea. I have the general design and usability in mind, but it needs brainstorming, refining, and creating.",ry78fs
+What are some problems where technology can help bridge gaps?,2,,rz6670
+The Virtual Reef of Intellectual Capital,4,"Cross-pollination has been mentioned in many studies as the way individuals from different backgrounds come together to share inspirations, motivation and support. That is what usually happens in metropolitan areas. Cities like New York, San Francisco, and Tokyo attract creative minds from across the world. They are hubs of innovation that keep pushing the boundaries of what’s possible and that is what [**Arkbase**](http://arkbase.co/) is all about on the third layer of the internet, the [**Web3**](https://finance.yahoo.com/news/what-is-web3-new-version-of-the-internet-everyone-is-talking-about-130641883.html?guccounter=1&guce_referrer=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_sig=AQAAAHYfWFkwLfTyr6pZy88YAS7ftiZg-8qvsQjQKp3gSVAjFf-ArkNnUrhJWcKq3u7Wbcv5082NyilqxdS62AxlXtgRoNsUYHG6kuTriBSERahVwPgv3-p3dgXZyq16gmMXZocsM6uladmYRTUH9k4XKUBATKJKvyrfBFktqQ3sQsFV).
+
+Arkbase can be viewed as a virtual reef where inventors, developers, and investors come together to nurture invention ideas that will change the way things are done. We help abstract ideas get exposure in a crypto-safe environment. What that means is all ideas that are shared on our platform are secured through a Public Ledger Technology (PLT) which saves every transaction in multiple locations and gives a public receipt back in seconds. This allows inventors to bring their supporters in this safe place to discuss the development of their ideas. Once a brainstorming session is concluded, a vote can be taken in a similar decentralized way.
+
+Though voting can usually be considered a complicated process, services like [**snapshot.org**](https://snapshot.org/) make it easy and transparent. As mentioned in our [**previous blog**](https://www.arkbase.co/post/token-economics-serving-inventions) about token economics, early investors, along with inventors’ families and friends, are the actual decision-makers through their position of the invention coin. They get to decide where the funds get allocated and what direction should the developing team go. Now the developers, or contributors as we like to call them, are a bit different, they have two ways to join the community and a lesser commitment option. They can either buy tokens in projects they believe in or work their way in.
+
+Developers’ compensation through tokens solves the inventor’s main current problem, being prey to bottom feeders. Getting paid through tokens means that it is in the interest of the developers to do a good job and stick around as long as possible. A CAD designer, for example, can choose to work for an invention and get paid in a token that is worth 0.2 dollars and then stick around and participate in the cross-pollination and voting processes that can bring the value of such a token up to 0.5 or 1 dollar. This process is unique to Arkbase and promises all with a stake in the invention of a democratized environment where every voice is heard and every token held is weighed.
+
+Bringing inventors together with early investors and contributors on one public secure authenticated table could be achieved only after the adaptation of crypto technologies, PLT to be exact and Arkbase is dedicated fully to solving the inventor’s problem. With us, you don’t have to do it alone, we’ll be with you the whole nine yards. We’ll help you launch your coin, raise funds and get developers to work with you using your own token, we only succeed after you do. As [**growth engineering**](https://www.growthengineering.co.uk/) defines cross-pollination “It's about combining the intellectual capital of individuals with different ways of thinking to reach innovative solutions.” and Arkbase is going to be the virtual reef to do so.",ryawbg
+sooooo,0,"ok, so I had an idea for a reddit page called r/boredanator_3000. so the idea is that you can post anything you want. so if you are bored you can just scroll though the boredanator\_3000. you will never know what you will get so its a new experience every time. the problem is that there are no members. but if there where people, you think it would work out?",rya8np
