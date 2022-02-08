@@ -29,7 +29,6 @@ def set_seed(seed: int):
 set_seed(1)
 
 
-# the model we gonna train, base uncased BERT
 # check text classification models here: https://huggingface.co/models?filter=text-classification
 model_name = "bert-base-uncased"
 # max sequence length for each document/sentence sample
