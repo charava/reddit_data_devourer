@@ -1,6 +1,6 @@
 # Needfindr #
 
-### Personal project in the works to _connect problems with problem solvers_ at [Invention Studio](https://www.nuevaschool.org/istudio). ###
+### Personal project in the works for [Invention Studio](https://www.nuevaschool.org/istudio) to _connect problems with problem solvers_. ###
 
 ...and yes, it uses Reddit
 
